@@ -1,0 +1,260 @@
+/* ここから下に記載していく */
+@charset"uft-8";
+
+.field1{
+    width: 1200px;
+    display: flex;
+}
+
+#logo{
+    width: 300px;
+}
+
+.title{
+    font-size: 21px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-right: 50px;
+    margin-left: 50px;
+}
+
+.field2{
+    position:relative; 
+    width: 1200px;
+}
+
+/* sekai1とsekai2の文字が写真の真ん中且つ */
+/* 間隔が30pxというのが大変だった */
+/* padding作って対処したが、フォントそのものの大きさも含めないといけないので要計算 */
+.sekai1{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 26px;
+    font-weight: bold;   
+    color: white;
+    padding-bottom: 41px;
+}
+.sekai2{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 20px;
+    font-weight: normal ;   
+    color: white; 
+    padding-top: 35px;  
+}
+
+.field3{
+    width: 1200px;   
+}
+
+#ABOUT{
+    font-size: 24px;
+    color: #ffd61a;
+    text-align: center;
+    padding-top: 60px;
+    padding-bottom: 30px;
+}
+#sent1{
+    padding-top: 60px;
+    padding-bottom: 40px;
+}
+
+#sent2{
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+#sent3{
+    padding-bottom: 80px;
+}
+
+.field3{
+    text-align: center;
+    font-size: 16px;
+}
+
+.imgs1{
+    display: flex;
+}
+#COURSE {
+    font-size: 24px;
+    color: #ffd61a;
+    padding-top: 60px;
+    padding-bottom: 30px;
+    text-align: center;  
+}
+
+.field4 {
+    text-align: center;
+    font-size: 16px;
+}
+
+#sent4 {
+    padding-bottom: 60px;
+}
+
+.field5{
+    display: flex;
+}   
+
+.field5sent{
+    text-align:left;
+    padding-left: 50px;
+    width: 480px;
+    font-size: 16px;
+}
+    
+.tag1{
+    padding-top: 120px;
+    padding-bottom: 40px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+
+.field6{
+    display: flex;
+}   
+
+.field6sent{
+    text-align: right;
+    padding-left: 50px;
+    padding right: 50px;
+    width: 480px;
+    font-size: 16px;
+}
+
+.tag2{
+    padding-top: 120px;
+    padding-bottom: 40px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+/* うまくいかず、目視で調整した */
+
+.img2{
+    padding-left: 70px;
+}
+
+.field7{
+    display: flex;
+}   
+
+.field7sent{
+    text-align:left;
+    padding-left: 50px;
+    width: 480px;
+    font-size: 16px;
+}
+    
+.tag3{
+    padding-top: 120px;
+    padding-bottom: 40px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+#NEWS{
+    font-size: 24px;
+    color: #ffd61a;
+    text-align: center;
+    padding-top: 60px;
+    padding-bottom: 30px;
+}
+
+.field8{
+    font-size: 16px;
+}
+
+#tagg{
+    padding-bottom: 60px;
+    text-align: center;
+}
+
+.field9{
+    display: flex;
+    justify-content: center;
+    font-size: 16px;
+}
+
+.tag5{
+    padding-top: 30px;
+    padding-bottom: 24px;
+}
+
+.taggg{
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.MORE{
+    margin: 60px;
+    text-align: center; 
+}
+
+#ACCESS{
+    font-size: 24px;
+    color: #ffd61a;
+    text-align: center;
+    padding-top: 60px;
+    padding-bottom: 30px;
+}
+
+.field10{
+    text-align: center;
+    font-size: 16px;
+}
+
+#info{
+   padding-bottom: 60px; 
+}
+#info2{
+    padding-top: 60px;
+    padding-bottom: 30px;
+}
+#info3{
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+#info4{
+    padding-top: 30px;
+    padding-bottom: 60px;
+}
+#CONTACT{
+    font-size: 24px;
+    color: #ffd61a;
+    text-align: center;
+    padding-top: 60px;
+    padding-bottom: 30px;
+}
+
+.field11{
+    font-size: 16px;
+    text-align: center;
+}
+#pag1{
+    padding-bottom: 60px;
+}
+
+#pag2{
+    padding-bottom: 30px;
+}
+#pag3{
+    padding-bottom: 70px;
+}
+
+.field12{
+    text-align: center;
+}
+.final{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background-color: #707070;
+    color: white;
+    font-size: 16px;
+    text-align: center;
+}
