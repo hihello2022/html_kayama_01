@@ -1,0 +1,68 @@
+#uy1{
+    width: 1000px;
+    height: 600px;
+    margin: 15px;
+    text-align: center;
+}
+
+.intro{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    font-size:40px;
+    font-style: inherit;
+    color: white;
+}
+
+#btn {
+    text-align: center; 
+    border-radius: 5px;
+    background-color: black;
+    padding: 10px;
+    margin-top: 10px;
+    text-decoration: none;
+    color: white;
+  }
+
+#b1{
+    text-align: center;
+}
+#b2{
+    text-align: center;
+}
+#b3{
+    text-align: center;
+}
+
+
+#result{
+    position: absolute;
+    left: 50%;
+    top: 58%;
+    transform: translate(-50%,-60%);
+    font-size:40px;
+    color: white;
+}
+
+body{
+    background-color: darkorchid;
+    margin:0;
+    padding:5px;
+    text-align:center;
+    font-size: 32px;
+}
+
+header{
+    background-color: rgb(240, 193, 233);
+    text-align: center;
+    padding-top: 4px;
+}
+main{
+    border-bottom:1px solid #ccc;
+}
+footer{
+    background-color: rgb(156, 83, 142);
+    border-bottom:1px solid rgb(156, 83, 142);
+    text-align: center;
+}
